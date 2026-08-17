@@ -1,17 +1,6 @@
-DROP DATABASE IF EXISTS CollegeDB;
-CREATE DATABASE CollegeDB;
-USE CollegeDB;
-
--- Create Student table
-
--- StudentID
-
--- StudentName
-
--- DOB
-
--- Gender
-
--- DepartmentID
-
--- Add constraints
+USE COLLEGEDBBCA;
+CREATE TABLE STUDENT1 (studentID INT (5) PRIMARY KEY, studentName 
+  VARCHAR (20) NOT NULL, DOB DATE , Gender VARCHAR(10),
+  DepartmentID INT(5));
+  SELECT*FROM STUDENT1;
+  DESC STUDENT ;
